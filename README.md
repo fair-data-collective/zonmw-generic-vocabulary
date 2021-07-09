@@ -29,5 +29,5 @@ Some of OntoStack micro-services are:
 - [SKOSMOS](http://www.skosmos.org/) a web-based SKOS browser acting as a front-end for the vocabularies persisted by the graph database
 - [Træfik](https://doc.traefik.io/traefik/) an edge router responsible for proper serving of URL requests
 
-**ZonMw COVID19 controlled vocabulary** is served by FAIR Data Collective instance of `OntoStack`:
+**ZonMw Generic Controlled Vocabulary** is served by FAIR Data Collective instance of `OntoStack`:
 http://vocab.fairdatacollective.org/
