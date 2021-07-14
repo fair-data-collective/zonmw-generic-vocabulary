@@ -27,7 +27,7 @@
   dct:title "ZonMW Generic Vocabulary";
   pav:createdOn "2021-07-09T11:00:00+00:00";
   pav:lastUpdatedOn "2021-07-09T11:00:00+00:00";
-  pav:version "1.0.0";
+  pav:version "1.1.0";
   skos:hasTopConcept gen:10000, gen:10001, gen:10002, gen:10003, gen:10004, gen:10005,
     gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026;
   skos:prefLabel "ZonMW Generic Vocabulary" .
