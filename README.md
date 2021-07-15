@@ -1,4 +1,4 @@
-[![CI](https://github.com/fair-data-collective/zonmw-project-content/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/zonmw-project-content/actions?query=workflow%3ASheet2RDF)
+[![CI](https://github.com/fair-data-collective/zonmw-generic-vocabulary/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/zonmw-generic-vocabulary/actions?query=workflow%3ASheet2RDF)
 
 # [ZonMw Generic Controlled Vocabulary](http://purl.org/zonmw/generic)
 Controlled vocabularies allow an accurate and controlled approach in describing physical and digital assets (e.g., data). One of such controlled vocabulary is **ZonMw Generic Controlled Vocabulary**. This controlled vocabulary is a result of series of [Metadata 4 Machine (M4M) Workshops](https://www.go-fair.org/zonmw-clusters-m4m-workshop-dates/) that run from October 2020 to July 2021 under Dutch COVID19 program, which is funded by ZonMw. 
@@ -13,7 +13,7 @@ Controlled vocabularies allow an accurate and controlled approach in describing 
 
 This repository hosts automatic workflow, executed by means of Github actions, and underlying shell and python scripts which:
 
-- [Fetches Google Sheet](https://docs.google.com/spreadsheets/d/1dvfNjJODfhb7vEW0bNmKCz7ae8dXGqOAxEjSita6cls/edit#gid=1404619820), containing the taxonomy terms and their defitions, from Google Drive and stores is as `xlsx` and `csv` files
+- [Fetches Google Sheet](https://docs.google.com/spreadsheets/d/1g6pfXRYA-4LjRj2ZS74jcs9R5vs5dOCoBdwAQW8opcY/edit#gid=1316280843), containing the taxonomy terms and their defitions, from Google Drive and stores is as `xlsx` and `csv` files
 - Converts fetched sheet to machine-actionable and FAIR RDF vocabulary using [xls2rdf](https://github.com/sparna-git/xls2rdf)
 - Tests the resulting RDF vocabulary using [qSKOS](https://github.com/cmader/qSKOS/)
 - Commits conversion results and tests logs to this repository
