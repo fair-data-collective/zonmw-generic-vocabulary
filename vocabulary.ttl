@@ -26,10 +26,11 @@
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "ZonMW Generic Vocabulary"@en;
   pav:createdOn "2021-07-09T11:00:00+00:00"@en;
-  pav:lastUpdatedOn "2021-08-09T11:00:00+00:00"@en;
+  pav:lastUpdatedOn "2021-08-09T14:00:00+00:00"@en;
   pav:version "1.1.0"@en;
   skos:hasTopConcept gen:10000, gen:10001, gen:10002, gen:10003, gen:10004, gen:10005,
-    gen:10006, gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026;
+    gen:10006, gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026,
+    gen:10027;
   skos:prefLabel "ZonMW Generic Vocabulary"@en .
 
 gen:10000 a skos:Concept;
@@ -191,3 +192,249 @@ gen:10026 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "disease"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10027 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:narrower gen:10028, gen:10029, gen:10030, gen:10031, gen:10032, gen:10033, gen:10034,
+    gen:10035, gen:10036, gen:10037, gen:10038, gen:10039, gen:10040, gen:10041, gen:10042,
+    gen:10043, gen:10044, gen:10045, gen:10046, gen:10047, gen:10048, gen:10049, gen:10050,
+    gen:10051, gen:10052, gen:10053, gen:10054, gen:10055, gen:10056, gen:10057, gen:10058,
+    gen:10059, gen:10060, gen:10061, gen:10062, gen:10063, gen:10064, gen:10065, gen:10066,
+    gen:10067, gen:10068, gen:10069, gen:10070, gen:10071, gen:10072, gen:10073, gen:10074;
+  skos:prefLabel "Institution"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10028 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Academic Medical Center - Amsterdam UMC"@en .
+
+gen:10029 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Amsterdam Health and Technology Institute - AHTI"@en .
+
+gen:10030 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Delft University of Technology"@en .
+
+gen:10031 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Eindhoven University of Technology"@en .
+
+gen:10032 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Erasmus Centrum voor Zorgbestuur"@en .
+
+gen:10033 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Erasmus MC"@en .
+
+gen:10034 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Erasmus University Rotterdam"@en .
+
+gen:10035 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Expertisecentrum Nederlands"@en .
+
+gen:10036 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Federal University of Rio de Janeiro"@en .
+
+gen:10037 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "GGD Amsterdam - Public Health Service of Amsterdam"@en .
+
+gen:10038 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "GGD Zuid Holland Zuid"@en .
+
+gen:10039 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "GO FAIR Foundation"@en .
+
+gen:10040 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Hogeschool Leiden - University of Applied Sciences Leiden"@en .
+
+gen:10041 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Hogeschool van Amsterdam - Amsterdam University of Applied Sciences"@en .
+
+gen:10042 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "IKNL - Netherlands Comprehensive Cancer Organisation"@en .
+
+gen:10043 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Leiden University"@en .
+
+gen:10044 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Leiden University Medical Center"@en .
+
+gen:10045 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Maastricht University"@en .
+
+gen:10046 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Maastricht University Medical Centre"@en .
+
+gen:10047 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Netherlands Comprehensive Cancer Organisation"@en .
+
+gen:10048 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Netherlands Heart Institute"@en .
+
+gen:10049 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "NIVEL - Netherlands Institute for Health Services Research"@en .
+
+gen:10050 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "NSCR - Netherlands Institute for the Study of Crime and Law Enforcement"@en .
+
+gen:10051 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Public Health Service of Amsterdam"@en .
+
+gen:10052 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Public Procurement Research Centre - PPRC"@en .
+
+gen:10053 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Radboud University Nijmegen"@en .
+
+gen:10054 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Radboud University Nijmegen Medical Centre"@en .
+
+gen:10055 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Reade Research BV"@en .
+
+gen:10056 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "RIVM - National Institute for Public Health and the Environment"@en .
+
+gen:10057 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Sanquin"@en .
+
+gen:10058 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Saxion University of Applied Sciences"@en .
+
+gen:10059 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "SEO Economisch Onderzoek"@en .
+
+gen:10060 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Spaarne Gasthuis - Spaarne Ziekenhuis"@en .
+
+gen:10061 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Tilburg University"@en .
+
+gen:10062 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "TNO - Netherlands Organisation for Applied Scientific Research"@en .
+
+gen:10063 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "University Medical Center Groningen"@en .
+
+gen:10064 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "University Medical Center Utrecht"@en .
+
+gen:10065 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "University of Amsterdam"@en .
+
+gen:10066 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "University of Groningen"@en .
+
+gen:10067 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "University of Humanistic Studies"@en .
+
+gen:10068 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "University of Twente"@en .
+
+gen:10069 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Utrecht University"@en .
+
+gen:10070 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Veiligheids- en Gezondheidsregio Gelderland-Midden"@en .
+
+gen:10071 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "VU Amsterdam"@en .
+
+gen:10072 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "VU University Medical Center"@en .
+
+gen:10073 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Wageningen University & Research"@en .
+
+gen:10074 a skos:Concept;
+  skos:broader gen:10027;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "ZonMw - Netherlands Organisation for Health Research and Development"@en .

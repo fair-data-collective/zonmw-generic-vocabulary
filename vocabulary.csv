@@ -14,7 +14,7 @@ dct:contributor,https://orcid.org/0000-0002-9381-9693
 dct:rights,https://spdx.org/licenses/CC0-1.0 
 pav:version,1.1.0
 pav:createdOn,2021-07-09T11:00:00+00:00
-pav:lastUpdatedOn,2021-08-09T11:00:00+00:00
+pav:lastUpdatedOn,2021-08-09T14:00:00+00:00
 
 
 
@@ -51,3 +51,51 @@ gen:10023,constraint,,,A Constraint limits the scope of the observation and conf
 gen:10024,microorganism,,,,,,gen:10008
 gen:10025,animal,,,,,,gen:10008
 gen:10026,disease
+gen:10027,Institution,,,,,, 
+gen:10028,Academic Medical Center - Amsterdam UMC,,,,,,gen:10027
+gen:10029,Amsterdam Health and Technology Institute - AHTI,,,,,,gen:10027
+gen:10030,Delft University of Technology,,,,,,gen:10027
+gen:10031,Eindhoven University of Technology,,,,,,gen:10027
+gen:10032,Erasmus Centrum voor Zorgbestuur,,,,,,gen:10027
+gen:10033,Erasmus MC,,,,,,gen:10027
+gen:10034,Erasmus University Rotterdam,,,,,,gen:10027
+gen:10035,Expertisecentrum Nederlands,,,,,,gen:10027
+gen:10036,Federal University of Rio de Janeiro,,,,,,gen:10027
+gen:10037,GGD Amsterdam - Public Health Service of Amsterdam,,,,,,gen:10027
+gen:10038,GGD Zuid Holland Zuid,,,,,,gen:10027
+gen:10039,GO FAIR Foundation,,,,,,gen:10027
+gen:10040,Hogeschool Leiden - University of Applied Sciences Leiden,,,,,,gen:10027
+gen:10041,Hogeschool van Amsterdam - Amsterdam University of Applied Sciences,,,,,,gen:10027
+gen:10042,IKNL - Netherlands Comprehensive Cancer Organisation,,,,,,gen:10027
+gen:10043,Leiden University,,,,,,gen:10027
+gen:10044,Leiden University Medical Center,,,,,,gen:10027
+gen:10045,Maastricht University,,,,,,gen:10027
+gen:10046,Maastricht University Medical Centre,,,,,,gen:10027
+gen:10047,Netherlands Comprehensive Cancer Organisation,,,,,,gen:10027
+gen:10048,Netherlands Heart Institute,,,,,,gen:10027
+gen:10049,NIVEL - Netherlands Institute for Health Services Research,,,,,,gen:10027
+gen:10050,NSCR - Netherlands Institute for the Study of Crime and Law Enforcement ,,,,,,gen:10027
+gen:10051,Public Health Service of Amsterdam,,,,,,gen:10027
+gen:10052,Public Procurement Research Centre - PPRC,,,,,,gen:10027
+gen:10053,Radboud University Nijmegen,,,,,,gen:10027
+gen:10054,Radboud University Nijmegen Medical Centre,,,,,,gen:10027
+gen:10055,Reade Research BV,,,,,,gen:10027
+gen:10056,RIVM - National Institute for Public Health and the Environment,,,,,,gen:10027
+gen:10057,Sanquin,,,,,,gen:10027
+gen:10058,Saxion University of Applied Sciences,,,,,,gen:10027
+gen:10059,SEO Economisch Onderzoek,,,,,,gen:10027
+gen:10060,Spaarne Gasthuis - Spaarne Ziekenhuis,,,,,,gen:10027
+gen:10061,Tilburg University,,,,,,gen:10027
+gen:10062,TNO - Netherlands Organisation for Applied Scientific Research,,,,,,gen:10027
+gen:10063,University Medical Center Groningen,,,,,,gen:10027
+gen:10064,University Medical Center Utrecht,,,,,,gen:10027
+gen:10065,University of Amsterdam,,,,,,gen:10027
+gen:10066,University of Groningen,,,,,,gen:10027
+gen:10067,University of Humanistic Studies,,,,,,gen:10027
+gen:10068,University of Twente,,,,,,gen:10027
+gen:10069,Utrecht University,,,,,,gen:10027
+gen:10070,Veiligheids- en Gezondheidsregio Gelderland-Midden,,,,,,gen:10027
+gen:10071,VU Amsterdam,,,,,,gen:10027
+gen:10072,VU University Medical Center,,,,,,gen:10027
+gen:10073,Wageningen University & Research,,,,,,gen:10027
+gen:10074,ZonMw - Netherlands Organisation for Health Research and Development,,,,,,gen:10027
