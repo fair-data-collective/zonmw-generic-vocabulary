@@ -51,7 +51,7 @@ gen:10023,constraint,,,A Constraint limits the scope of the observation and conf
 gen:10024,microorganism,,,,,,gen:10008
 gen:10025,animal,,,,,,gen:10008
 gen:10026,disease
-gen:10027,Institution,,,,,, 
+gen:10027,institution,,,,,, 
 gen:10028,Academic Medical Center - Amsterdam UMC,,,,,,gen:10027
 gen:10029,Amsterdam Health and Technology Institute - AHTI,,,,,,gen:10027
 gen:10030,Delft University of Technology,,,,,,gen:10027

@@ -201,7 +201,7 @@ gen:10027 a skos:Concept;
     gen:10051, gen:10052, gen:10053, gen:10054, gen:10055, gen:10056, gen:10057, gen:10058,
     gen:10059, gen:10060, gen:10061, gen:10062, gen:10063, gen:10064, gen:10065, gen:10066,
     gen:10067, gen:10068, gen:10069, gen:10070, gen:10071, gen:10072, gen:10073, gen:10074;
-  skos:prefLabel "Institution"@en;
+  skos:prefLabel "institution"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
 
 gen:10028 a skos:Concept;
