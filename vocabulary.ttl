@@ -26,10 +26,10 @@
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "ZonMW Generic Vocabulary"@en;
   pav:createdOn "2021-07-09T11:00:00+00:00"@en;
-  pav:lastUpdatedOn "2021-07-09T11:00:00+00:00"@en;
+  pav:lastUpdatedOn "2021-08-09T11:00:00+00:00"@en;
   pav:version "1.1.0"@en;
   skos:hasTopConcept gen:10000, gen:10001, gen:10002, gen:10003, gen:10004, gen:10005,
-    gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026;
+    gen:10006, gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026;
   skos:prefLabel "ZonMW Generic Vocabulary"@en .
 
 gen:10000 a skos:Concept;
@@ -61,15 +61,14 @@ gen:10004 a skos:Concept;
 
 gen:10005 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:narrower gen:10006;
   skos:prefLabel "data"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
 
 gen:10006 a skos:Concept;
-  skos:broader gen:10005;
   skos:definition "Other forms of data that are not easily categorized or defined"@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "other type of data"@en .
+  skos:prefLabel "other"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
 
 gen:10007 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/generic>;
