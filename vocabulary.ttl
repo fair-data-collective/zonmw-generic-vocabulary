@@ -30,7 +30,7 @@
   pav:version "1.1.0"@en;
   skos:hasTopConcept gen:10000, gen:10001, gen:10002, gen:10003, gen:10004, gen:10005,
     gen:10006, gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026,
-    gen:10027;
+    gen:10027, gen:10075;
   skos:prefLabel "ZonMW Generic Vocabulary"@en .
 
 gen:10000 a skos:Concept;
@@ -432,3 +432,95 @@ gen:10074 a skos:Concept;
   skos:broader gen:10027;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "ZonMw - Netherlands Organisation for Health Research and Development"@en .
+
+gen:10075 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:narrower gen:10076, gen:10077, gen:10078, gen:10079, gen:10080, gen:10081, gen:10082,
+    gen:10083, gen:10084, gen:10085, gen:10086, gen:10087, gen:10088, gen:10089;
+  skos:prefLabel "contributor type"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10076 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "data collector"@en .
+
+gen:10077 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "data manager"@en .
+
+gen:10078 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "data curator"@en .
+
+gen:10079 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "sponsor"@en .
+
+gen:10080 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "distributor"@en .
+
+gen:10081 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "project leader"@en .
+
+gen:10082 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "project manager"@en .
+
+gen:10083 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "project member"@en .
+
+gen:10084 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "reseacher"@en .
+
+gen:10085 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "editor"@en .
+
+gen:10086 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "rights holder"@en .
+
+gen:10087 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "supervisor"@en .
+
+gen:10088 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "work package leader"@en .
+
+gen:10089 a skos:Concept;
+  dct:source <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
+  skos:broader gen:10075;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "contact person"@en .

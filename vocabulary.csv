@@ -98,3 +98,18 @@ gen:10071,VU Amsterdam,,,,,,gen:10027
 gen:10072,VU University Medical Center,,,,,,gen:10027
 gen:10073,Wageningen University & Research,,,,,,gen:10027
 gen:10074,ZonMw - Netherlands Organisation for Health Research and Development,,,,,,gen:10027
+gen:10075,contributor type,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf
+gen:10076,data collector,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10077,data manager,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10078,data curator,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10079,sponsor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10080,distributor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10081,project leader,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10082,project manager,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10083,project member,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10084,reseacher,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10085,editor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10086,rights holder,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10087,supervisor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10088,work package leader,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
+gen:10089,contact person,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
