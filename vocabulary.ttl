@@ -83,7 +83,7 @@ gen:10008 a skos:Concept;
   skos:definition "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBI_0100026>;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:narrower gen:10024, gen:10025;
+  skos:narrower gen:10024, gen:10025, gen:10098;
   skos:prefLabel "organism"@en .
 
 gen:10009 a skos:Concept;
@@ -575,3 +575,8 @@ gen:10097 a skos:Concept;
   skos:broader gen:10026;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "plant disease"@en .
+
+gen:10098 a skos:Concept;
+  skos:broader gen:10008;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "plant"@en .
