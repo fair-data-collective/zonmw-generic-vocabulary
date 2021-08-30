@@ -29,7 +29,7 @@ gen:10002,subject
 gen:10003,temporal scope
 gen:10004,population group
 gen:10005,data
-gen:10006,other,,,Other forms of resources that are not easily categorized or defined
+gen:10006,other,,,Other forms of resources that are not easily categorized or defined,,,gen:10099
 gen:10007,biomaterial
 gen:10008,organism,,,"A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.",,http://purl.obolibrary.org/obo/OBI_0100026,gen:10007,,http://purl.obolibrary.org/obo/OBI_0100026
 gen:10009,specimen,,,"A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157,gen:10007,,"https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157,
@@ -117,8 +117,12 @@ gen:10090,bacterium,,,"Unicellular, prokaryotic organisms that reproduce by cell
 gen:10091,parasite,,,"Any organism that has a close, symbiotic relationship with a separate, host organism.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176,gen:10024,,http://purl.obolibrary.org/obo/NCIT_C28176
 gen:10092,virus,,,"An infectious agent which consists of two parts, genetic material and a protein coat. These organisms lack independent metabolism, and they must infect the cells of other types of organisms to reproduce. Most viruses are capable of passing through fine filters that retain bacteria, and are not visible through a light microscope.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283,gen:10024,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283
 gen:10093,fungus,,,,,,gen:10024
-gen:10094,none
+gen:10094,none,,,,,,gen:10099
 gen:10095,human disease,,,,,,gen:10026
 gen:10096,animal disease,,,,,,gen:10026
 gen:10097,plant disease,,,,,,gen:10026
 gen:10098,plant,,,,,,gen:10008
+gen:10099,generic answer options
+gen:10100,yes,,,,,,gen:10099
+gen:10101,no,,,,,,gen:10099
+,,,,,,,gen:10099

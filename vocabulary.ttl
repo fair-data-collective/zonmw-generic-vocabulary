@@ -29,8 +29,8 @@
   pav:lastUpdatedOn "2021-08-13T22:00:00+00:00"@en;
   pav:version "1.1.0"@en;
   skos:hasTopConcept gen:10000, gen:10001, gen:10002, gen:10003, gen:10004, gen:10005,
-    gen:10006, gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026,
-    gen:10027, gen:10075, gen:10094;
+    gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026, gen:10027,
+    gen:10075, gen:10099;
   skos:prefLabel "ZonMW Generic Vocabulary"@en .
 
 gen:10000 a skos:Concept;
@@ -66,10 +66,10 @@ gen:10005 a skos:Concept;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
 
 gen:10006 a skos:Concept;
+  skos:broader gen:10099;
   skos:definition "Other forms of resources that are not easily categorized or defined"@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "other"@en;
-  skos:topConceptOf <http://purl.org/zonmw/generic> .
+  skos:prefLabel "other"@en .
 
 gen:10007 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/generic>;
@@ -557,9 +557,9 @@ gen:10093 a skos:Concept;
   skos:prefLabel "fungus"@en .
 
 gen:10094 a skos:Concept;
+  skos:broader gen:10099;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "none"@en;
-  skos:topConceptOf <http://purl.org/zonmw/generic> .
+  skos:prefLabel "none"@en .
 
 gen:10095 a skos:Concept;
   skos:broader gen:10026;
@@ -580,3 +580,19 @@ gen:10098 a skos:Concept;
   skos:broader gen:10008;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "plant"@en .
+
+gen:10099 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:narrower gen:10006, gen:10094, gen:10100, gen:10101;
+  skos:prefLabel "generic answer options"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10100 a skos:Concept;
+  skos:broader gen:10099;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "yes"@en .
+
+gen:10101 a skos:Concept;
+  skos:broader gen:10099;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "no"@en .
