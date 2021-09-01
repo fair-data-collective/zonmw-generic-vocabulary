@@ -97,7 +97,7 @@ gen:10070,Veiligheids- en Gezondheidsregio Gelderland-Midden,,,,,,gen:10027
 gen:10071,VU Amsterdam,,,,,,gen:10027
 gen:10072,VU University Medical Center,,,,,,gen:10027
 gen:10073,Wageningen University & Research,,,,,,gen:10027
-gen:10074,ZonMw - Netherlands Organisation for Health Research and Development,,,,,,gen:10027
+gen:10074,ZonMw - Netherlands Organisation for Health Research and Development,,,,,,"gen:10027, gen:10102"
 gen:10075,contributor type,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf
 gen:10076,data collector,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
 gen:10077,data manager,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
@@ -125,4 +125,4 @@ gen:10098,plant,,,,,,gen:10008
 gen:10099,generic answer options
 gen:10100,yes,,,,,,gen:10099
 gen:10101,no,,,,,,gen:10099
-,,,,,,,gen:10099
+gen:10102,funder institution,,,,,,gen:10099

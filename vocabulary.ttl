@@ -431,7 +431,7 @@ gen:10073 a skos:Concept;
   skos:prefLabel "Wageningen University & Research"@en .
 
 gen:10074 a skos:Concept;
-  skos:broader gen:10027;
+  skos:broader gen:10027, gen:10102;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "ZonMw - Netherlands Organisation for Health Research and Development"@en .
 
@@ -583,7 +583,7 @@ gen:10098 a skos:Concept;
 
 gen:10099 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:narrower gen:10006, gen:10094, gen:10100, gen:10101;
+  skos:narrower gen:10006, gen:10094, gen:10100, gen:10101, gen:10102;
   skos:prefLabel "generic answer options"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
 
@@ -596,3 +596,9 @@ gen:10101 a skos:Concept;
   skos:broader gen:10099;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "no"@en .
+
+gen:10102 a skos:Concept;
+  skos:broader gen:10099;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:narrower gen:10074;
+  skos:prefLabel "funder institution"@en .
