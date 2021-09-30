@@ -126,3 +126,4 @@ gen:10099,generic answer options
 gen:10100,yes,,,,,,gen:10099
 gen:10101,no,,,,,,gen:10099
 gen:10102,funder institution,,,,,,gen:10027
+gen:10103,unknown,,,,,,gen:10099
