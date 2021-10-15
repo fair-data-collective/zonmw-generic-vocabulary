@@ -175,7 +175,7 @@ gen:10023 a skos:Concept;
 gen:10024 a skos:Concept;
   skos:broader gen:10008;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:narrower gen:10090, gen:10091, gen:10092, gen:10093;
+  skos:narrower gen:10090, gen:10091, gen:10092, gen:10093, gen:10104;
   skos:prefLabel "microorganism"@en .
 
 gen:10025 a skos:Concept;
@@ -539,10 +539,9 @@ gen:10090 a skos:Concept;
 gen:10091 a skos:Concept;
   dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176>;
   skos:broader gen:10024;
-  skos:definition "Any organism that has a close, symbiotic relationship with a separate, host organism."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C28176>;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "parasite"@en .
+  skos:prefLabel "prion"@en .
 
 gen:10092 a skos:Concept;
   dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283>;
@@ -608,3 +607,8 @@ gen:10103 a skos:Concept;
   skos:broader gen:10099;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "unknown"@en .
+
+gen:10104 a skos:Concept;
+  skos:broader gen:10024;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "protozoa"@en .
