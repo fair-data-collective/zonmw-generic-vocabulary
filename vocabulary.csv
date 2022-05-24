@@ -128,3 +128,11 @@ gen:10101,no,,,,,,gen:10099
 gen:10102,funder institution,,,,,,gen:10027
 gen:10103,unknown,,,,,,gen:10099
 gen:10104,protozoa,,,,,,gen:10024
+gen:10105,media type
+gen:10106,text/Portable Document Format for archiving (PDF)
+gen:10107,text/Portable Document Format (PDF),,,PDF other than PDF/A (.pdf)
+gen:10108,text/Open Document Format (ODT),,,Text format with .odt ending
+gen:10109,text/Microsoft Word,,,Text format with .doc ending
+gen:10110,text/Office Open XML,,,Text format with .docx ending
+gen:10111,text/Rich Text File,,,Text format with .rtf ending
+gen:10112,plain/txt

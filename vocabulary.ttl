@@ -30,7 +30,8 @@
   pav:version "1.1.0"@en;
   skos:hasTopConcept gen:10000, gen:10001, gen:10002, gen:10003, gen:10004, gen:10005,
     gen:10007, gen:10013, gen:10014, gen:10021, gen:10022, gen:10023, gen:10026, gen:10027,
-    gen:10075, gen:10099;
+    gen:10075, gen:10099, gen:10105, gen:10106, gen:10107, gen:10108, gen:10109, gen:10110,
+    gen:10111, gen:10112;
   skos:prefLabel "ZonMW Generic Vocabulary"@en .
 
 gen:10000 a skos:Concept;
@@ -612,3 +613,48 @@ gen:10104 a skos:Concept;
   skos:broader gen:10024;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "protozoa"@en .
+
+gen:10105 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "media type"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10106 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "text/Portable Document Format for archiving (PDF)"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10107 a skos:Concept;
+  skos:definition "PDF other than PDF/A (.pdf)"@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "text/Portable Document Format (PDF)"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10108 a skos:Concept;
+  skos:definition "Text format with .odt ending"@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "text/Open Document Format (ODT)"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10109 a skos:Concept;
+  skos:definition "Text format with .doc ending"@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "text/Microsoft Word"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10110 a skos:Concept;
+  skos:definition "Text format with .docx ending"@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "text/Office Open XML"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10111 a skos:Concept;
+  skos:definition "Text format with .rtf ending"@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "text/Rich Text File"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
+
+gen:10112 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "plain/txt"@en;
+  skos:topConceptOf <http://purl.org/zonmw/generic> .
