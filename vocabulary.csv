@@ -148,3 +148,40 @@ gen:10121,MD - Markdown,,,A DANS non-preferred markup language format with '.md'
 gen:10122,MATLAB,,,A DANS preferred programming language format. ,,https://dans.knaw.nl/en/file-formats/programming-languages/matlab/,gen:10105
 gen:10123,NetCDF - Network Common Data Form,,,A DANS preferred file format. It is an interface to a library of data access functions for storing and retrieving data in the form of arrays.,,https://dans.knaw.nl/en/file-formats/programming-languages/netcdf/,gen:10105
 gen:10124,TF - Text-Fabric,,,"A DANS preferred file format. Files with this format store a column of feature values that correspond to nodes and edges in a graph, which together represent annotated text. ",,https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/,gen:10105
+gen:10125,ODS,,,A DANS preferred spreadsheet format with '.ods' ending. It is an ISO standardized format for office documents. ,,https://dans.knaw.nl/en/file-formats/spreadsheets/ods/,gen:10105
+gen:10126,CSV - Comma Separated Values,,,A DANS preferred spreadsheet format with '.csv' ending.,,https://dans.knaw.nl/en/file-formats/spreadsheets/csv/,gen:10105
+gen:10127,XLS - Microsoft Excel,,,A DANS non-preferred spreadsheet format with '.xls' ending.,,https://dans.knaw.nl/en/file-formats/spreadsheets/microsoft-excel/,gen:10105
+gen:10128,XLSX - Office Open XML Workbook,,,A DANS non-preferred spreadsheet format with '.xlsx' ending.,,https://dans.knaw.nl/en/file-formats/spreadsheets/office-open-xml-workbook/,gen:10105
+gen:10129,SQL - Structured Query Language,,,A DANS preferred database format with '.sql' ending.,,https://dans.knaw.nl/en/file-formats/databases/sql/,gen:10105
+gen:10130,SIARD - Software Independent Archiving of Relational Databases,,,A DANS preferred database format.,,https://dans.knaw.nl/en/file-formats/databases/siard/,gen:10105
+gen:10131,Microsoft Access,,,A DANS non-preferred database format with '.mdb' or 'accdb' ending.,,https://dans.knaw.nl/en/file-formats/databases/microsoft-access/,gen:10105
+gen:10132,DBF - dBase,,,A DANS non-preferred database format with '.dbf' ending.,,https://dans.knaw.nl/en/file-formats/databases/dbase/,gen:10105
+gen:10133,HDF5 - Hierarchical Data Format,,,"A DANS non-preferred database format with '.hdf5', '.he5' or '.h5' ending.",,https://dans.knaw.nl/en/file-formats/,gen:10105
+gen:10134,SPSS ,,,A DANS preferred statistical data format with '.dat/.sps' ending.,,https://dans.knaw.nl/en/file-formats/statistical-data/data-and-setup/,gen:10105
+gen:10135,STATA ,,,A DANS preferred statistical data format with '.dat/.Do' ending.,,https://dans.knaw.nl/en/file-formats/statistical-data/data-and-setup/,gen:10105
+gen:10136,R,,,A DANS preferred statistical data format.,,https://dans.knaw.nl/en/file-formats/statistical-data/r/,gen:10105
+gen:10137,JPEG - Joint Photographic Expert Group,,,A DANS preferred raster images format with '.jpg/.jpeg' ending.,,https://dans.knaw.nl/en/file-formats/images-raster/jpeg/,gen:10105
+gen:10138,JPEG 2000,,,A DANS preferred raster images format with '.jp2' ending.,,https://dans.knaw.nl/en/file-formats/images-raster/jpeg-2000/,gen:10105
+gen:10139,TIFF - Tagged Image File Format,,,A DANS preferred raster images format with '.tiff' ending.,,https://dans.knaw.nl/en/file-formats/images-raster/tiff/,gen:10105
+gen:10140,PNG - Portable Network Graphics,,,A DANS preferred raster images format with '.png' ending.,,https://dans.knaw.nl/en/file-formats/images-raster/png/,gen:10105
+gen:10141,DICOM - Digital Imaging and Communications in Medicine,,,A DANS preferred raster images format with '.dcm' ending.,,https://dans.knaw.nl/en/file-formats/images-raster/dicom/,gen:10105
+gen:10142,SVG - Scalable Vector Graphics,,,A DANS preferred raster images format with '.svg' ending.,,https://dans.knaw.nl/en/file-formats/images-vector/svg/,gen:10105
+gen:10143,BWF - Broadcast Wave Format,,,A DANS preferred audio format with '.bwf' ending.,,https://dans.knaw.nl/en/file-formats/audio/bwf/,gen:10105
+gen:10144,MXF - Material Exchange Format ,,,A DANS preferred audio and video format with '.mxf' ending.,,https://dans.knaw.nl/en/file-formats/audio/mxf/,gen:10105
+gen:10145,MKA - Matroska,,,A DANS preferred audio and video format with '.mka' ending.,,https://dans.knaw.nl/en/file-formats/audio/matroska/,gen:10105
+gen:10146,FLAC - Free Lossless Audio Codec,,,A DANS preferred audio format with '.flac' ending.,,https://dans.knaw.nl/en/file-formats/audio/flac/,gen:10105
+gen:10147,OPUS,,,A DANS preferred audio format.,,https://dans.knaw.nl/en/file-formats/audio/opus/,gen:10105
+gen:10148,DXF - AutoCAD DXF version R12 (ASCII),,,A DANS preferred computer aided design format with '.dxf' ending.,,https://dans.knaw.nl/en/file-formats/computer-aided-design-cad/autocad-dxf-versie-r12-ascii/,gen:10105
+gen:10149,GML - Geography Markup Language,,,A DANS preferred GIS format with '.gml' ending.,,https://dans.knaw.nl/en/file-formats/geographical-information-systems-gis/gml/,gen:10105
+gen:10150,MIF/MID - MapInfo Interchange Format,,,A DANS preferred GIS format with '.mif' ending.,,https://dans.knaw.nl/en/file-formats/geographical-information-systems-gis/mif-mid/,gen:10105
+gen:10151,GeoJSON,,,A DANS preferred GIS format with '.json' ending.,,,gen:10105
+gen:10152,GeoTIFF,,,A DANS preferred georeferenced images format with '.tif' or '.tiff' ending.,,https://dans.knaw.nl/en/file-formats/images-georeference/geotiff/,gen:10105
+gen:10153,ASCII GRID,,,A DANS preferred raster GIS format with '.asc' or '.txt' ending.,,https://dans.knaw.nl/en/file-formats/raster-gis/ascii-grid/,gen:10105
+gen:10154,WaveFront Object,,,A DANS preferred 3D geometry format with '.obj' ending.,,https://dans.knaw.nl/en/file-formats/3d/wavefront-object/,gen:10105
+gen:10155,Polygon file format,,,A DANS preferred 3D geometry format with '.ply' ending.,,https://dans.knaw.nl/en/file-formats/3d/polygon-file-format/,gen:10105
+gen:10156,RDF - Resource Description Framework,,,A DANS preferred linked data format with '.rdf' ending.,,,gen:10105
+gen:10157,TriG,,,A DANS preferred linked data format with '.trig' ending.,,,gen:10105
+gen:10158,Turtle,,,A DANS preferred linked data format with '.ttl' ending.,,,gen:10105
+gen:10159,NTriples,,,A DANS preferred linked data format with '.nt' ending.,,,gen:10105
+gen:10160,JSON-LD,,,A DANS preferred linked data format based on JSON.,,,gen:10105
+gen:10161,REFI-QDA - Qualitative Data Analysis,,,A DANS preferred qualitative data analysis standard for exchange of qualtitative data between QDA programs.,,https://dans.knaw.nl/en/file-formats/computer-assisted-qualitative-data-analysis-caqdas/refi-qda-qualitative-data-analysis/,gen:10105

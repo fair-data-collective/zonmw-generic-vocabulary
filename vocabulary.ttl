@@ -618,7 +618,12 @@ gen:10105 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:narrower gen:10106, gen:10107, gen:10108, gen:10109, gen:10110, gen:10111, gen:10112,
     gen:10113, gen:10114, gen:10115, gen:10116, gen:10117, gen:10118, gen:10119, gen:10120,
-    gen:10121, gen:10122, gen:10123, gen:10124;
+    gen:10121, gen:10122, gen:10123, gen:10124, gen:10125, gen:10126, gen:10127, gen:10128,
+    gen:10129, gen:10130, gen:10131, gen:10132, gen:10133, gen:10134, gen:10135, gen:10136,
+    gen:10137, gen:10138, gen:10139, gen:10140, gen:10141, gen:10142, gen:10143, gen:10144,
+    gen:10145, gen:10146, gen:10147, gen:10148, gen:10149, gen:10150, gen:10151, gen:10152,
+    gen:10153, gen:10154, gen:10155, gen:10156, gen:10157, gen:10158, gen:10159, gen:10160,
+    gen:10161;
   skos:prefLabel "media type"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
 
@@ -754,3 +759,256 @@ gen:10124 a skos:Concept;
   skos:definition "A DANS preferred file format. Files with this format store a column of feature values that correspond to nodes and edges in a graph, which together represent annotated text."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
   skos:prefLabel "TF - Text-Fabric"@en .
+
+gen:10125 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/spreadsheets/ods/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred spreadsheet format with '.ods' ending. It is an ISO standardized format for office documents."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "ODS"@en .
+
+gen:10126 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/spreadsheets/csv/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred spreadsheet format with '.csv' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "CSV - Comma Separated Values"@en .
+
+gen:10127 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/spreadsheets/microsoft-excel/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred spreadsheet format with '.xls' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "XLS - Microsoft Excel"@en .
+
+gen:10128 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/spreadsheets/office-open-xml-workbook/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred spreadsheet format with '.xlsx' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "XLSX - Office Open XML Workbook"@en .
+
+gen:10129 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/databases/sql/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred database format with '.sql' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "SQL - Structured Query Language"@en .
+
+gen:10130 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/databases/siard/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred database format."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "SIARD - Software Independent Archiving of Relational Databases"@en .
+
+gen:10131 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/databases/microsoft-access/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred database format with '.mdb' or 'accdb' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Microsoft Access"@en .
+
+gen:10132 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/databases/dbase/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred database format with '.dbf' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "DBF - dBase"@en .
+
+gen:10133 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred database format with '.hdf5', '.he5' or '.h5' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "HDF5 - Hierarchical Data Format"@en .
+
+gen:10134 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/statistical-data/data-and-setup/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred statistical data format with '.dat/.sps' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "SPSS"@en .
+
+gen:10135 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/statistical-data/data-and-setup/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred statistical data format with '.dat/.Do' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "STATA"@en .
+
+gen:10136 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/statistical-data/r/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred statistical data format."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "R"@en .
+
+gen:10137 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-raster/jpeg/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster images format with '.jpg/.jpeg' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "JPEG - Joint Photographic Expert Group"@en .
+
+gen:10138 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-raster/jpeg-2000/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster images format with '.jp2' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "JPEG 2000"@en .
+
+gen:10139 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-raster/tiff/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster images format with '.tiff' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "TIFF - Tagged Image File Format"@en .
+
+gen:10140 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-raster/png/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster images format with '.png' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "PNG - Portable Network Graphics"@en .
+
+gen:10141 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-raster/dicom/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster images format with '.dcm' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "DICOM - Digital Imaging and Communications in Medicine"@en .
+
+gen:10142 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-vector/svg/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster images format with '.svg' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "SVG - Scalable Vector Graphics"@en .
+
+gen:10143 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/audio/bwf/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred audio format with '.bwf' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "BWF - Broadcast Wave Format"@en .
+
+gen:10144 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/audio/mxf/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred audio and video format with '.mxf' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "MXF - Material Exchange Format"@en .
+
+gen:10145 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/audio/matroska/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred audio and video format with '.mka' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "MKA - Matroska"@en .
+
+gen:10146 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/audio/flac/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred audio format with '.flac' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "FLAC - Free Lossless Audio Codec"@en .
+
+gen:10147 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/audio/opus/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred audio format."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "OPUS"@en .
+
+gen:10148 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/computer-aided-design-cad/autocad-dxf-versie-r12-ascii/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred computer aided design format with '.dxf' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "DXF - AutoCAD DXF version R12 (ASCII)"@en .
+
+gen:10149 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/geographical-information-systems-gis/gml/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred GIS format with '.gml' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "GML - Geography Markup Language"@en .
+
+gen:10150 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/geographical-information-systems-gis/mif-mid/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred GIS format with '.mif' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "MIF/MID - MapInfo Interchange Format"@en .
+
+gen:10151 a skos:Concept;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred GIS format with '.json' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "GeoJSON"@en .
+
+gen:10152 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/images-georeference/geotiff/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred georeferenced images format with '.tif' or '.tiff' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "GeoTIFF"@en .
+
+gen:10153 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/raster-gis/ascii-grid/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred raster GIS format with '.asc' or '.txt' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "ASCII GRID"@en .
+
+gen:10154 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/3d/wavefront-object/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred 3D geometry format with '.obj' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "WaveFront Object"@en .
+
+gen:10155 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/3d/polygon-file-format/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred 3D geometry format with '.ply' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Polygon file format"@en .
+
+gen:10156 a skos:Concept;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred linked data format with '.rdf' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "RDF - Resource Description Framework"@en .
+
+gen:10157 a skos:Concept;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred linked data format with '.trig' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "TriG"@en .
+
+gen:10158 a skos:Concept;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred linked data format with '.ttl' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "Turtle"@en .
+
+gen:10159 a skos:Concept;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred linked data format with '.nt' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "NTriples"@en .
+
+gen:10160 a skos:Concept;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred linked data format based on JSON."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "JSON-LD"@en .
+
+gen:10161 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/computer-assisted-qualitative-data-analysis-caqdas/refi-qda-qualitative-data-analysis/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred qualitative data analysis standard for exchange of qualtitative data between QDA programs."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "REFI-QDA - Qualitative Data Analysis"@en .
