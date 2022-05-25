@@ -614,47 +614,143 @@ gen:10104 a skos:Concept;
   skos:prefLabel "protozoa"@en .
 
 gen:10105 a skos:Concept;
+  skos:altLabel "format"@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:narrower gen:10106, gen:10107, gen:10108, gen:10109, gen:10110, gen:10111, gen:10112;
+  skos:narrower gen:10106, gen:10107, gen:10108, gen:10109, gen:10110, gen:10111, gen:10112,
+    gen:10113, gen:10114, gen:10115, gen:10116, gen:10117, gen:10118, gen:10119, gen:10120,
+    gen:10121, gen:10122, gen:10123, gen:10124;
   skos:prefLabel "media type"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .
 
 gen:10106 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/text-documents/pdf-a/>;
   skos:broader gen:10105;
+  skos:definition "A DANS preferred text format with '.pdf' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "text/Portable Document Format for archiving (PDF)"@en .
+  skos:prefLabel "PDF/A - Portable Document Format for archiving"@en .
 
 gen:10107 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/text-documents/pdf-pdf/>;
   skos:broader gen:10105;
-  skos:definition "PDF other than PDF/A (.pdf)"@en;
+  skos:definition "A DANS non-preferred text format, which includes all PDF other than PDF/A wiht '.pdf' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "text/Portable Document Format (PDF)"@en .
+  skos:prefLabel "PDF - Portable Document Format"@en .
 
 gen:10108 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/text-documents/opendocument-text/>;
   skos:broader gen:10105;
-  skos:definition "Text format with .odt ending"@en;
+  skos:definition "A DANS preferred text format with '.odt' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "text/Open Document Format (ODT)"@en .
+  skos:prefLabel "ODT - Open Document"@en .
 
 gen:10109 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/text-documents/microsoft-word-and-office-open-xml/>;
   skos:broader gen:10105;
-  skos:definition "Text format with .doc ending"@en;
+  skos:definition "A DANS non-preferred text format with '.doc' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "text/Microsoft Word"@en .
+  skos:prefLabel "DOC - Microsoft Word"@en .
 
 gen:10110 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/text-documents/microsoft-word-and-office-open-xml/>;
   skos:broader gen:10105;
-  skos:definition "Text format with .docx ending"@en;
+  skos:definition "A DANS non-preferred text format with '.docx' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "text/Office Open XML"@en .
+  skos:prefLabel "DOCX - Office Open XML"@en .
 
 gen:10111 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/text-documents/rich-text-file-rtf/>;
   skos:broader gen:10105;
-  skos:definition "Text format with .rtf ending"@en;
+  skos:definition "A DANS non-preferred text format with '.rtf' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "text/Rich Text File"@en .
+  skos:prefLabel "RTF - Rich Text File"@en .
 
 gen:10112 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/plain-text/unicode/>;
   skos:broader gen:10105;
+  skos:definition "A DANS preferred plain text format with '.txt' ending."@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "plain/txt"@en .
+  skos:prefLabel "TXT - Unicode text"@en .
+
+gen:10113 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/plain-text/unicode/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred plain text format with '.txt' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "TXT - Non-Unicode text"@en .
+
+gen:10114 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/xml/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred markup language format with '.xml' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "XML - eXtensivle Markup Language"@en .
+
+gen:10115 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/html/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred markup language format with '.xml' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "HTML - Hypertext Markup Language"@en .
+
+gen:10116 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/css/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred markup language format with '.css' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "CSS - Cascading Style Sheets"@en .
+
+gen:10117 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/xslt/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred markup language format with '.xslt' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "XSLT - Extensible Stylesheet Language Transformations"@en .
+
+gen:10118 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/script/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred markup language format with '.js' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "JS - JavaScript"@en .
+
+gen:10119 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/script/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred markup language format with '.es' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "ES - ECMAScript"@en .
+
+gen:10120 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/sgml/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred markup language format with '.es' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "SGML - Standard Generalized Markup Language"@en .
+
+gen:10121 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/markup-language/markdown/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS non-preferred markup language format with '.md' ending."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "MD - Markdown"@en .
+
+gen:10122 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/programming-languages/matlab/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred programming language format."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "MATLAB"@en .
+
+gen:10123 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/programming-languages/netcdf/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred file format. It is an interface to a library of data access functions for storing and retrieving data in the form of arrays."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "NetCDF - Network Common Data Form"@en .
+
+gen:10124 a skos:Concept;
+  dct:source <https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/>;
+  skos:broader gen:10105;
+  skos:definition "A DANS preferred file format. Files with this format store a column of feature values that correspond to nodes and edges in a graph, which together represent annotated text."@en;
+  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "TF - Text-Fabric"@en .
